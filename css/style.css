@@ -113,7 +113,7 @@ nav {
   height: 100%;
   object-fit: cover;
   object-position: center calc(50% + 120px);
-  opacity: 0.35;
+  opacity: 1;
   pointer-events: none;
 }
 
@@ -133,6 +133,7 @@ nav {
   line-height: 1.05;
   letter-spacing: -0.02em;
   color: var(--text);
+  text-shadow: 0 2px 12px rgba(0,0,0,0.5);
 }
 
 .hero-sub {
